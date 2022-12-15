@@ -6,7 +6,7 @@ Neural network was used because it can easily recognize patterns that humans can
 ## Result
 Our model predicted stocks that would 10x correctly 18.75% of the time. But if it predicted that every stock would 10x, it wouyld be correct 11/63 (17.46%) of the time. With this comparison, it is safe to say that this bot is not very useful. This is probably because we did not have a large enough number of stocks in our data to work with (a lot of stocks were dropped due to missing data). Increasing the number of epochs did not help improve the accuracy.
 ## Possible future work
-To improve the model, suggestions include:
+To improve the model, suggestions include:<br>
 Increasing the number of hidden layers.<br>
 Changing the activation function, such as from relu to swish.<br>
 Changing the activation function in the output layer, such as from sigmoid to logistic.<br>
